@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\colea\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\colea\\.nuget\\packages"
+    ]
+  }
+}
