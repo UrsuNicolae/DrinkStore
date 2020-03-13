@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DrinkStore.Data.Interfaces
 {
-    interface ICategoryRepo
+    public interface ICategoryRepo
     {
         IEnumerable<Category> Categories { get; set; }
     }

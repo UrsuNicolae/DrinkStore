@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using DrinkStore.Data.Models;
+using System.Collections.Generic;
 
-namespace DrinkStore.Data.Models
+namespace DrinkStore.Data.Interfaces
 {
-    interface IDrinkRepo
+    public interface IDrinkRepo
     {
-        IEnumerable<Drink> Drink { get; set; }
+        IEnumerable<Drink> Drinks { get; set; }
 
         IEnumerable<Drink> PreferredDrinks { get; set; }
 

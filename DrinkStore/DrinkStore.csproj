@@ -6,8 +6,6 @@
 
   <ItemGroup>
     <Folder Include="Components\" />
-    <Folder Include="Views\" />
-    <Folder Include="ViewModels\" />
     <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\js\" />

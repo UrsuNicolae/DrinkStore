@@ -1,0 +1,20 @@
+﻿@using DrinkStore.ViewModels
+@model  DrinkListViewModel
+
+@{ 
+    ViewBag.Title = "DrinkStore";
+}
+
+    <div>
+        <h2>All available drinks</h2>
+    </div>
+
+@{ 
+    foreach(var drink in Model.Drinks)
+    {
+        <div>
+            <h4>Drink Name: @drink.Name</h4>
+            <p>Price: @drink.Price.ToString("c")</p>
+        </div>
+    }
+}

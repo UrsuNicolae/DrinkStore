@@ -16,3 +16,14 @@ C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.RazorTargetAssemblyInfo.cache
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.dll
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.pdb
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\bin\Debug\netcoreapp3.1\DrinkStore.Views.dll
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\bin\Debug\netcoreapp3.1\DrinkStore.Views.pdb
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.RazorAssemblyInfo.cache
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.RazorAssemblyInfo.cs
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.TagHelpers.input.cache
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.TagHelpers.output.cache
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.RazorCoreGenerate.cache
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\List.cshtml.g.cs
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.RazorTargetAssemblyInfo.cs
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.Views.pdb
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.csproj.CopyComplete

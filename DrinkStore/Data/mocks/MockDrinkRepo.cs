@@ -6,11 +6,11 @@ using System.Linq;
 
 namespace DrinkStore.Data.mocks
 {
-    public class ModckDrinkRepo : IDrinkRepo
+    public class MockDrinkRepo : IDrinkRepo
     {
 
         private readonly ICategoryRepo _categoryRepo = new MockCategoryRepo();
-        public IEnumerable<Drink> Drink
+        public IEnumerable<Drink> Drinks
         {
             get
             {

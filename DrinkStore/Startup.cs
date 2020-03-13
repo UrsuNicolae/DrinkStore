@@ -1,3 +1,5 @@
+using DrinkStore.Data.Interfaces;
+using DrinkStore.Data.mocks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -19,6 +21,8 @@ namespace DrinkStore
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<IDrinkRepo, MockDrinkRepo>();
+            services.AddTransient<ICategoryRepo, MockCategoryRepo>();
             services.AddMvc(options => options.EnableEndpointRouting = false);
         }
 
