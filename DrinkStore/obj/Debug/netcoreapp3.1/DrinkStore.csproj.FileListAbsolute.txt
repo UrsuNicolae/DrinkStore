@@ -10,7 +10,6 @@ C:\Users\colea\Desktop\DrinkStore\DrinkStore\bin\Debug\netcoreapp3.1\DrinkStore.
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.csprojAssemblyReference.cache
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\staticwebassets\DrinkStore.StaticWebAssets.Manifest.cache
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\staticwebassets\DrinkStore.StaticWebAssets.xml
-C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.AssemblyInfoInputs.cache
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.AssemblyInfo.cs
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.RazorTargetAssemblyInfo.cache
@@ -27,3 +26,7 @@ C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.RazorTargetAssemblyInfo.cs
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.Views.pdb
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.csproj.CopyComplete
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs

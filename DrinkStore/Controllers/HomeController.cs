@@ -14,7 +14,8 @@ namespace DrinkStore.Controllers
             _categoryRepo = categoryRepo;
             _drinkRepo = drinkRepo;
         }
-
+        [Route("")]
+        [Route("home/list")]
         public ViewResult List()
         {
             DrinkListViewModel drinks = new DrinkListViewModel();
