@@ -61,5 +61,6 @@ C:\Users\colea\Desktop\DrinkStore\DrinkStore\bin\Debug\netcoreapp3.1\runtimes\un
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\DrinkSummary.cshtml.g.cs
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
