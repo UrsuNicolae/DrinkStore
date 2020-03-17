@@ -1,6 +1,8 @@
+using DrinkAndGo.Data;
 using DrinkStore.Data;
 using DrinkStore.Data.Interfaces;
 using DrinkStore.Data.mocks;
+using DrinkStore.Data.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -9,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using System;
 
 namespace DrinkStore
 {
@@ -27,17 +30,17 @@ namespace DrinkStore
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer(_configurationRoot.GetConnectionString("DefaultConnetion")));
+            services.AddDbContextPool<AppDbContext>(options =>
+                options.UseSqlServer(_configurationRoot.GetConnectionString("DefaultConnection")));
 
-            services.AddTransient<IDrinkRepo, MockDrinkRepo>();
-            services.AddTransient<ICategoryRepo, MockCategoryRepo>();
+            services.AddTransient<IDrinkRepo, DrinkRepository>();
+            services.AddTransient<ICategoryRepo, CategoryRepository>();
             services.AddMvc(options => options.EnableEndpointRouting = false);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env,
-                                ILogger<Startup> logger)
+                                ILogger<Startup> logger, IServiceProvider serviceProvider)
         {
             if (env.IsDevelopment())
             {
@@ -49,6 +52,7 @@ namespace DrinkStore
             {
                 routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
             });
+            DbInitializer.Seed(serviceProvider);
         }
     }
 }

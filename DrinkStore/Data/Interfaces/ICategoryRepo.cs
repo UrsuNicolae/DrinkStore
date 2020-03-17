@@ -5,6 +5,6 @@ namespace DrinkStore.Data.Interfaces
 {
     public interface ICategoryRepo
     {
-        IEnumerable<Category> Categories { get; set; }
+        IEnumerable<Category> Categories { get; }
     }
 }

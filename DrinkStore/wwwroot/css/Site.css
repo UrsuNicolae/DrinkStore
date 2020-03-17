@@ -1,5 +1,5 @@
 ﻿.img {
-    width: 1000px;
+    width: auto;
     height: 200px;
     object-fit: scale-down;
 }

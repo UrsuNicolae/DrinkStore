@@ -5,9 +5,9 @@ namespace DrinkStore.Data.Interfaces
 {
     public interface IDrinkRepo
     {
-        IEnumerable<Drink> Drinks { get; set; }
+        IEnumerable<Drink> Drinks { get; }
 
-        IEnumerable<Drink> PreferredDrinks { get; set; }
+        IEnumerable<Drink> PreferredDrinks { get; }
 
         Drink GetDrinkById(int drinkId);
     }
