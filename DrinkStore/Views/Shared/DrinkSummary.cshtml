@@ -1,7 +1,7 @@
 ﻿@model Drink
 
     <div class="card m-3" style="min-width: 18rem; max-width:30.5%;">
-        <img class="card-img-top" src="@Model.ImageThumbnailUrl" style="width:auto; height: 200px" asp-append-version="true" />
+        <img class="card-img-top" style="height:200px; max-width:100%" src="@Model.ImageThumbnailUrl"  asp-append-version="true" />
         <div class="figure-caption">
             <div>
                 <h3 style="float:left">@Model.Name</h3>

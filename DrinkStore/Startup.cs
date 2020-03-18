@@ -2,6 +2,7 @@ using DrinkAndGo.Data;
 using DrinkStore.Data;
 using DrinkStore.Data.Interfaces;
 using DrinkStore.Data.mocks;
+using DrinkStore.Data.Models;
 using DrinkStore.Data.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -35,7 +36,13 @@ namespace DrinkStore
 
             services.AddTransient<IDrinkRepo, DrinkRepository>();
             services.AddTransient<ICategoryRepo, CategoryRepository>();
+
+            services.AddTransient<IDrinkRepo, DrinkRepository>();
+            services.AddScoped(sp => ShoppingCart.GetCart(sp));
+            
             services.AddMvc(options => options.EnableEndpointRouting = false);
+            services.AddMemoryCache();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,6 +55,7 @@ namespace DrinkStore
             }
 
             app.UseStaticFiles();
+            app.UseSession();
             app.UseMvc(routes =>
             {
                 routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");

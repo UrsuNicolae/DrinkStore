@@ -22,7 +22,6 @@ C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.TagHelpers.input.cache
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.TagHelpers.output.cache
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.RazorCoreGenerate.cache
-C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\List.cshtml.g.cs
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.RazorTargetAssemblyInfo.cs
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.Views.pdb
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.csproj.CopyComplete
@@ -64,3 +63,8 @@ C:\Users\colea\Desktop\DrinkStore\DrinkStore\bin\Debug\netcoreapp3.1\Microsoft.E
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\DrinkSummary.cshtml.g.cs
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\DrinkStore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCart\Index.cshtml.g.cs
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Carousel.cshtml.g.cs
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views\Drink\List.cshtml.g.cs

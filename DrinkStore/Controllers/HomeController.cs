@@ -1,28 +1,29 @@
 ﻿using DrinkStore.Data.Interfaces;
 using DrinkStore.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace DrinkStore.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ICategoryRepo _categoryRepo;
-        private readonly IDrinkRepo _drinkRepo;
+        private readonly IDrinkRepo _drinkRepository;
 
-        public HomeController(ICategoryRepo categoryRepo, IDrinkRepo drinkRepo)
+        public HomeController(IDrinkRepo drinkRepository)
         {
-            _categoryRepo = categoryRepo;
-            _drinkRepo = drinkRepo;
+            _drinkRepository = drinkRepository;
         }
-        [Route("")]
-        [Route("home/list")]
-        public ViewResult List()
+
+        public ViewResult Index()
         {
-            DrinkListViewModel drinks = new DrinkListViewModel();
-            drinks.Drinks = _drinkRepo.Drinks;
-            drinks.CurrentCategory = "DrinkCategory";
-            return View(drinks);
+            var homeViewModel = new HomeViewModel
+            {
+                PreferredDrinks = _drinkRepository.PreferredDrinks
+            };
+            return View(homeViewModel);
         }
-        
     }
 }
