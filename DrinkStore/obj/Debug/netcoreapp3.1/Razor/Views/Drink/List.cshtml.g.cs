@@ -27,7 +27,7 @@ using DrinkStore.Data.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e9e9d2ccfa0a23ebd7031675a1600d9981f49e14", @"/Views/Drink/List.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"113e02cedea3d012548af3988406247021170436", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a61c8bd33575b30a0ef8118f771a215d6a517e5c", @"/Views/_ViewImports.cshtml")]
     public class Views_Drink_List : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<DrinkListViewModel>
     {
         #pragma warning disable 1998

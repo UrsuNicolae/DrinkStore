@@ -7,6 +7,7 @@ using DrinkStore.Data.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -39,7 +40,9 @@ namespace DrinkStore
 
             services.AddTransient<IDrinkRepo, DrinkRepository>();
             services.AddScoped(sp => ShoppingCart.GetCart(sp));
-            
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
             services.AddMvc(options => options.EnableEndpointRouting = false);
             services.AddMemoryCache();
             services.AddSession();
@@ -58,6 +61,8 @@ namespace DrinkStore
             app.UseSession();
             app.UseMvc(routes =>
             {
+                routes.MapRoute("categoryFilter", "Drink/{action}/{category?}", 
+                    defaults: new { Controller = "Drink", action="List"});
                 routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
             });
             DbInitializer.Seed(serviceProvider);

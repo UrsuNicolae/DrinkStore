@@ -68,3 +68,6 @@ C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Carousel.cshtml.g.cs
 C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views\Drink\List.cshtml.g.cs
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ShoppingCartSummary\Default.cshtml.g.cs
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\colea\Desktop\DrinkStore\DrinkStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CategoryMenu\Default.cshtml.g.cs
