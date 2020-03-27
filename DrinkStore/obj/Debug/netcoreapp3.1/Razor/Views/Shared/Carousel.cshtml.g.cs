@@ -26,8 +26,15 @@ using DrinkStore.Data.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\colea\Desktop\DrinkStore\DrinkStore\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0eee9dfd76dd5ab415d288bfb64ff2b80ce19d89", @"/Views/Shared/Carousel.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a61c8bd33575b30a0ef8118f771a215d6a517e5c", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"576981b108906d8acd7ec8f7a02edd41d7652d46", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Carousel : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

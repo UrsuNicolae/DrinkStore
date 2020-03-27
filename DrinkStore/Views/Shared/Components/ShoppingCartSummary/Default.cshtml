@@ -3,8 +3,8 @@
 @if(Model.ShoppingCart.ShoppingCartItems.Count > 0)
 {
     <li>
-        <a asp-controller="ShoppingCart">
-            <span class="glyphicon glyphicon-shopping-cart"></span>
+        <a asp-controller="ShoppingCart" class="nav-link btn btn-link py-0">
+            <span class="glyphicon glyphicon-shopping-cart" style="width:1px; height:1px"></span>
             <span id="cart-status">
                 @Model.ShoppingCart.ShoppingCartItems.Count
             </span>

@@ -1,6 +1,7 @@
 ﻿using DrinkStore.Data.Interfaces;
 using DrinkStore.Data.Models;
 using DrinkStore.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace DrinkStore.Controllers
 {
+    [Authorize]
     public class ShoppingCartController : Controller
     {
 

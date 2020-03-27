@@ -7,6 +7,7 @@ using DrinkStore.Data.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -35,8 +36,19 @@ namespace DrinkStore
             services.AddDbContextPool<AppDbContext>(options =>
                 options.UseSqlServer(_configurationRoot.GetConnectionString("DefaultConnection")));
 
+            services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            {
+                options.Password.RequiredLength = 4;
+                options.Password.RequiredUniqueChars = 3;
+                options.Password.RequireNonAlphanumeric = false;
+            })
+                .AddEntityFrameworkStores<AppDbContext>();
+
             services.AddTransient<IDrinkRepo, DrinkRepository>();
             services.AddTransient<ICategoryRepo, CategoryRepository>();
+            services.AddTransient<IOrderRepository, OrderRepository>();
+
+
 
             services.AddTransient<IDrinkRepo, DrinkRepository>();
             services.AddScoped(sp => ShoppingCart.GetCart(sp));
@@ -59,6 +71,7 @@ namespace DrinkStore
 
             app.UseStaticFiles();
             app.UseSession();
+            app.UseAuthentication();
             app.UseMvc(routes =>
             {
                 routes.MapRoute("categoryFilter", "Drink/{action}/{category?}", 
